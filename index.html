@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240129232547">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="loader">
+			<div class="loader__logo">
+				<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Logo"></picture>
+			</div>
+			<div class="loader__spinner loader--roller">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+		<a href="#" data-goto="#main" class="link-scroll-top _icon-arrow">
+		</a>
+		<header class="header">
+			<div class="header__container">
+				<div class="header__info">Uruchom restrukturyzację w ciągu 2 dni. Wypełnij formularz lub zadzwoń: <a class="_icon-phone" href="tel:48730118004">(+48) 730 118 004 </a></div>
+				<a href="#" data-goto="#mainbottom" class="header__button button _icon-arrow-circle">Wypełnij formularz</a>
+
+			</div>
+		</header>
+		<main class="page">
+			<section id="main" class="main">
+				<div class="main__container">
+					<div class="main__body">
+						<div class="main__logo">
+							<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Logo"></picture>
+						</div>
+						<h1 class="main__title">
+							W ciągu <strong>1 dnia</strong> zatrzymamy czynności egzekucyjne w Twojej firmie!
+						</h1>
+						<p class="main__info">Zmniejszymy saldo zobowiązań <strong>nawet o 50%</strong> i uchronimy Twoją
+							firmę przed
+							bankructwem. Wypełnij formularz i porozmawiaj z naszym doradcą restrukturyzacyjnym.
+						</p>
+					</div>
+					<div class="main__form form-main">
+						<h2 class="form-main__title">Formularz kontaktowy</h2>
+						<form data-one-select class="form" data-popup-message=".sendmail" data-dev action="files/sendmail/sendmail.php" method="POST">
+							<div class="form__item item-form">
+								<input data-required autocomplete="off" type="text" name="form[]" placeholder="Imię" class="input">
+							</div>
+							<div class="form__item item-form">
+								<input data-required autocomplete="off" type="text" name="form[]" placeholder="Nazwa Twojej firmy" class="input">
+							</div>
+							<div class="form__item item-form">
+								<input data-required="email" autocomplete="off" type="text" name="form[]" placeholder="Adres e-mail" class="input">
+							</div>
+							<div class="form__item item-form">
+								<input data-required autocomplete="off" type="text" name="form[]" placeholder="Numer telefonu" class="input">
+							</div>
+							<div class="form__item item-form">
+								<select data-speed="400" name="form[]" data-class-modif="form">
+									<option value="" selected>Rodzaj działalności</option>
+									<option value="Spółka z o.o.">Spółka z&nbsp;o.o.</option>
+									<option value="Działalność jednoosobowa">Działalność jednoosobowa</option>
+									<option value="Spółka cywilna">Spółka cywilna</option>
+									<option value="Spółka akcyjna">Spółka akcyjna</option>
+									<option value="Spółka osobowa">Spółka osobowa</option>
+								</select>
+							</div>
+							<div class="form__item item-form">
+								<select data-speed="400" name="form[]" data-class-modif="form">
+									<option value="" selected>Kwota zadłużenia</option>
+									<option value="Poniżej 200 tyś. zł">Poniżej 200 tyś. zł</option>
+									<option value="200 - 500 tyś. zł">200 - 500 tyś. zł</option>
+									<option value="500 tyś. - 1 milion zł">500 tyś. - 1 milion zł</option>
+									<option value="1 milion - 1,5 miliona zł">1 milion - 1,5 miliona zł</option>
+									<option value="Powyżej 1,5 miliona zł">Powyżej 1,5 miliona zł</option>
+								</select>
+
+							</div>
+							<button type="submit" class="form__button button _icon-mail _blue-btn">Chcę natychmiastowo
+								wstrzymać egzekucję</button>
+						</form>
+					</div>
+				</div>
+			</section>
+			<section class="info">
+				<div class="info__container">
+					<div class="info__top top-info">
+						<div class="top-info__item item-top-info">
+							<div class="item-top-info__value"><span>400</span></div>
+							<div class="item-top-info__key">skutecznych postępowań naprawczych*
+							</div>
+						</div>
+						<div class="top-info__item item-top-info">
+							<div class="item-top-info__value">Do <span>100</span>%</div>
+							<div class="item-top-info__key">umorzenia odsetek, kosztów egzekucji i kosztów komorniczych
+							</div>
+						</div>
+						<div class="top-info__item item-top-info">
+							<div class="item-top-info__value">Do <span>12</span></div>
+							<div class="item-top-info__key">miesięcy przerwy w spłacie rat
+							</div>
+						</div>
+					</div>
+					<div class="top-info__bottom">
+						<p>*wg Krajowego Rejestru Zadłużonych oraz Monitora Sądowego
+						</p>
+					</div>
+
+				</div>
+			</section>
+			<section class="advantages">
+				<div class="advantages__container">
+					<h2 class="advantages__title">Zyskaj:
+					</h2>
+					<div class="advantages__items">
+						<div class="advantages__item item-advantages">
+							<div class="item-advantages__logo">
+								<picture><source srcset="img/i04.webp" type="image/webp"><img src="img/i04.png" alt="Icon"></picture>
+							</div>
+							<h3 class="item-advantages__title">Natychmiastowe wstrzymanie egzekucji komorniczych
+							</h3>
+							<p class="item-advantages__info">Zapewniamy Ci oddech od egzekucji komorniczych, dając przestrzeń
+								do działania.
+
+							</p>
+						</div>
+						<div class="advantages__item item-advantages">
+							<div class="item-advantages__logo">
+								<picture><source srcset="img/i02.webp" type="image/webp"><img src="img/i02.png" alt="Icon"></picture>
+							</div>
+							<h3 class="item-advantages__title">Zmniejszymy saldo zobowiązań nawet o 50%
+							</h3>
+							<p class="item-advantages__info">Oferujemy możliwość zmniejszenia salda Twoich zobowiązań nawet o
+								50%.
+
+							</p>
+						</div>
+						<div class="advantages__item item-advantages">
+							<div class="item-advantages__logo">
+								<picture><source srcset="img/i03.webp" type="image/webp"><img src="img/i03.png" alt="Icon"></picture>
+							</div>
+							<h3 class="item-advantages__title">Spłatę na Twoich warunkach
+							</h3>
+							<p class="item-advantages__info">Tworzymy dogodny plan rat, który jest dostosowany do Twojej
+								aktualnej sytuacji finansowej.
+
+							</p>
+						</div>
+						<div class="advantages__item item-advantages">
+							<div class="item-advantages__logo">
+								<picture><source srcset="img/i01.webp" type="image/webp"><img src="img/i01.png" alt="Icon"></picture>
+							</div>
+							<h3 class="item-advantages__title">Ochronę Twojego majątku od pierwszego dnia
+							</h3>
+							<p class="item-advantages__info">Gwarantujemy ochronę prywatnego i firmowego majątku już od
+								pierwszego dnia postępowania.
+
+							</p>
+						</div>
+					</div>
+					<div class="advantages__actions">
+						<a href="#" data-goto="#mainbottom" class="stages__link button _icon-mail">Proszę o wstrzymane egzekucji</a>
+					</div>
+				</div>
+			</section>
+			<section class="services">
+				<div class="services__container">
+					<h2 class="services__title">Transport, rolnictwo, budownictwo —
+						różne sektory, wspólne wyzwania</h2>
+					<div class="services__items">
+						<div class="services__item item-services">
+							<div class="item-services__top top-item-services">
+								<div class="top-item-services__logo">
+									<img src="img/icon-05.svg" alt="Icon">
+								</div>
+								<h3 class="top-item-services__title">Transport</h3>
+								<h4 class="top-item-services__uplist">Główne problemy:
+
+								</h4>
+								<ul class="top-item-services__list">
+									<li class="top-item-services__item  _icon-arrow-circle">Wysoki koszt umów leasingowych
+									</li>
+									<li class="top-item-services__item  _icon-arrow-circle">Wypowiedzenie umów leasingowych
+									</li>
+								</ul>
+
+							</div>
+							<div class="item-services__bottom bottom-item-services">
+								<p class="bottom-item-services__info">Korzyść z restrukturyzacji:
+								</p>
+								<p class="bottom-item-services__subinfo">Wstrzymanie wypowiedzenia umów leasingowych od
+									pierwszego dnia restrukturyzacji
+								</p>
+							</div>
+						</div>
+						<div class="services__item item-services">
+							<div class="item-services__top top-item-services">
+								<div class="top-item-services__logo">
+									<img src="img/icon-06.svg" alt="Icon">
+								</div>
+								<h3 class="top-item-services__title">Rolnictwo
+								</h3>
+								<h4 class="top-item-services__uplist">Główne problemy:
+
+								</h4>
+								<ul class="top-item-services__list">
+									<li class="top-item-services__item  _icon-arrow-circle">Znaczący spadek cen skupu płodów rolnych
+									</li>
+									<li class="top-item-services__item  _icon-arrow-circle">Wojna na Ukrainie
+									</li>
+								</ul>
+
+							</div>
+							<div class="item-services__bottom bottom-item-services">
+								<p class="bottom-item-services__info">Korzyść z restrukturyzacji:
+								</p>
+								<p class="bottom-item-services__subinfo">Do 12 miesięcy przerwy w spłacie zobowiązań objętych
+									postępowaniem oraz ochrona gospodarstwa przed licytacją komorniczą
+								</p>
+							</div>
+						</div>
+						<div class="services__item item-services">
+							<div class="item-services__top top-item-services">
+								<div class="top-item-services__logo">
+									<img src="img/icon-07.svg" alt="Icon">
+								</div>
+								<h3 class="top-item-services__title">Mali i średni przedsiębiorcy
+								</h3>
+								<h4 class="top-item-services__uplist">Główne problemy:
+
+								</h4>
+								<ul class="top-item-services__list">
+									<li class="top-item-services__item  _icon-arrow-circle">Niekorzystne rozwiązania podatkowe
+									</li>
+									<li class="top-item-services__item  _icon-arrow-circle">Wzrost kosztów prowadzenia działalności oraz
+										przedsiębiorstwa
+									</li>
+								</ul>
+
+							</div>
+							<div class="item-services__bottom bottom-item-services">
+								<p class="bottom-item-services__info">Korzyść z restrukturyzacji:
+								</p>
+								<p class="bottom-item-services__subinfo">Redukcja zobowiązań pozostających do spłaty. Do 12
+									miesięcy karencji w spłacie zobowiązań objętych postępowaniem
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="services__actions">
+						<a href="#" data-goto="#mainbottom" class="services__link _light button _icon-arrow-circle">Proszę o darmową analizę</a>
+					</div>
+				</div>
+			</section>
+			<section class="stages">
+				<div class="stages__container">
+					<h2 class="stages__title">Poczuj spokój dzięki
+						uruchomieniu restrukturyzacji</h2>
+					<div class="stages__body">
+						<div class="stages__item item-stages">
+							<span class="item-stages__value">01</span>
+							<div class="item-stages__title">Lorem ipsum dolor sit amet consectetur.</div>
+							<div class="item-stages__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quos, minus quas, molestias voluptates assumenda necessitatibus eum harum magni earum error minima vel recusandae possimus?</div>
+						</div>
+						<div class="stages__item item-stages">
+							<span class="item-stages__value">02</span>
+							<div class="item-stages__title">Lorem ipsum dolor sit amet consectetur.</div>
+							<div class="item-stages__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ut expedita sed doloribus magnam voluptas itaque consectetur maxime magni placeat, nesciunt tempore eaque odit, non asperiores corrupti vitae nobis sapiente?</div>
+						</div>
+						<div class="stages__item item-stages">
+							<span class="item-stages__value">03</span>
+							<div class="item-stages__title">Lorem ipsum dolor sit amet consectetur.</div>
+							<div class="item-stages__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ut expedita sed doloribus magnam voluptas itaque consectetur maxime magni placeat, nesciunt tempore eaque odit, non asperiores corrupti vitae nobis sapiente?</div>
+						</div>
+						<div class="stages__item item-stages">
+							<span class="item-stages__value">04</span>
+							<div class="item-stages__title">Lorem ipsum dolor sit amet consectetur.</div>
+							<div class="item-stages__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ut expedita sed doloribus magnam voluptas itaque consectetur maxime magni placeat, nesciunt tempore eaque odit, non asperiores corrupti vitae nobis sapiente?</div>
+						</div>
+						<div class="stages__item item-stages">
+							<span class="item-stages__value">05</span>
+							<div class="item-stages__title">Lorem ipsum dolor sit amet consectetur.</div>
+							<div class="item-stages__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ut expedita sed doloribus magnam voluptas itaque consectetur maxime magni placeat, nesciunt tempore eaque odit, non asperiores corrupti vitae nobis sapiente?</div>
+						</div>
+						<div class="stages__item item-stages">
+							<span class="item-stages__value">06</span>
+							<div class="item-stages__title">Lorem ipsum dolor sit amet consectetur.</div>
+							<div class="item-stages__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ut expedita sed doloribus magnam voluptas itaque consectetur maxime magni placeat, nesciunt tempore eaque odit, non asperiores corrupti vitae nobis sapiente?</div>
+						</div>
+					</div>
+					<div class="stages__actions">
+						<a href="#" data-goto="#mainbottom" class="stages__link button _icon-mail">Proszę o wstrzymane egzekucji</a>
+					</div>
+				</div>
+			</section>
+			<section class="info">
+				<div class="info__container">
+					<div class="info__top top-info">
+						<div class="top-info__item item-top-info">
+							<div class="item-top-info__value"><span>400</span></div>
+							<div class="item-top-info__key">skutecznych postępowań naprawczych*
+							</div>
+						</div>
+						<div class="top-info__item item-top-info">
+							<div class="item-top-info__value">Do <span>100</span>%</div>
+							<div class="item-top-info__key">umorzenia odsetek, kosztów egzekucji i kosztów komorniczych
+							</div>
+						</div>
+						<div class="top-info__item item-top-info">
+							<div class="item-top-info__value">Do <span>12</span></div>
+							<div class="item-top-info__key">miesięcy przerwy w spłacie rat
+							</div>
+						</div>
+					</div>
+					<div class="top-info__bottom">
+						<p>*wg Krajowego Rejestru Zadłużonych oraz Monitora Sądowego
+						</p>
+					</div>
+
+				</div>
+			</section>
+			<section class="hero">
+				<div class="hero__container">
+					<div class="hero__picture">
+						<picture><source srcset="img/hero.webp" type="image/webp"><img src="img/hero.jpg" alt="Hero image"></picture>
+					</div>
+					<div class="hero__info info-hero">
+
+						<div class="info-hero__info">
+							<p>Szanowny Przedsiębiorco,</p>
+							<p>Kanych i naprawczych. Jeśli zatem twoja firma boryka się z różnymi problemami
+								natury finansowej, egzekucyjnej, masz zajęcia komornicze, tracisz majątek lub nie możesz spłacać
+								terminowo zobowiązań, to zgłoś się do Nas.
+							</p>
+							<p>Nasza Kancelaria jest po to, aby dać Ci skuteczne wsparcie w zakresie prawnym i doradczym.
+								Partnerzy i pracownicy Kancelarii KPR – eksperci od prawa restrukturyzacyjnego i upadłościowego
+								– są do Twojej dyspozycji.
+							</p>
+							<p>Moje osobiste doświadczenie jako przedsiębiorcy, profesjonalnego pełnomocnika, syndyka oraz
+								doradcy restrukturyzacyjnego, dowodzi, że możemy Ci kompleksowo pomóc. Konsultacje z Kancelarią
+								KPR są bezpłatne. Wierzę, że działając razem, przywrócimy stabilność finansową Twojej firmie!
+							</p>
+						</div>
+						<div class="info-hero__name">Adam Kaczor
+						</div>
+						<div class="info-hero__rank">
+							<span>Kwalifikowany Doradca Restrukturyzacyjny,
+							</span>
+							<span>Prezes Zarządu </span>
+						</div>
+					</div>
+
+				</div>
+			</section>
+			<section id="mainbottom" class="main _bg-two">
+				<div class="main__container">
+					<div class="main__body">
+						<div class="main__logo">
+							<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Logo"></picture>
+						</div>
+						<h1 class="main__title">
+							W ciągu <strong>1 dnia</strong> zatrzymamy czynności egzekucyjne w Twojej firmie!
+						</h1>
+						<h2 class="main__info">Zmniejszymy saldo zobowiązań <strong>nawet o 50%</strong> i uchronimy Twoją
+							firmę przed
+							bankructwem. Wypełnij formularz i porozmawiaj z naszym doradcą restrukturyzacyjnym.
+						</h2>
+					</div>
+					<div class="main__form form-main">
+						<div class="form-main__title">Formularz kontaktowy</div>
+						<form data-one-select class="form _sending" data-popup-message=".sendmail" data-dev action="files/sendmail/sendmail.php" method="POST">
+							<div class="sending-roll loader--roller">
+								<div></div>
+								<div></div>
+								<div></div>
+								<div></div>
+								<div></div>
+								<div></div>
+								<div></div>
+								<div></div>
+							</div>
+							<div class="form__item item-form">
+								<input data-required autocomplete="off" type="text" name="form[]" placeholder="Imię" class="input">
+							</div>
+							<div class="form__item item-form">
+								<input data-required autocomplete="off" type="text" name="form[]" placeholder="Nazwa Twojej firmy" class="input">
+							</div>
+							<div class="form__item item-form">
+								<input data-required="email" autocomplete="off" type="text" name="form[]" placeholder="Adres e-mail" class="input">
+							</div>
+							<div class="form__item item-form">
+								<input data-required autocomplete="off" type="text" name="form[]" placeholder="Numer telefonu" class="input">
+							</div>
+							<div class="form__item item-form">
+								<select data-speed="400" name="form[]" data-class-modif="form">
+									<option value="" selected>Rodzaj działalności</option>
+									<option value="Spółka z o.o.">Spółka z&nbsp;o.o.</option>
+									<option value="Działalność jednoosobowa">Działalność jednoosobowa</option>
+									<option value="Spółka cywilna">Spółka cywilna</option>
+									<option value="Spółka akcyjna">Spółka akcyjna</option>
+									<option value="Spółka osobowa">Spółka osobowa</option>
+								</select>
+							</div>
+							<div class="form__item item-form">
+								<select data-speed="400" name="form[]" data-class-modif="form">
+									<option value="" selected>Kwota zadłużenia</option>
+									<option value="Poniżej 200 tyś. zł">Poniżej 200 tyś. zł</option>
+									<option value="200 - 500 tyś. zł">200 - 500 tyś. zł</option>
+									<option value="500 tyś. - 1 milion zł">500 tyś. - 1 milion zł</option>
+									<option value="1 milion - 1,5 miliona zł">1 milion - 1,5 miliona zł</option>
+									<option value="Powyżej 1,5 miliona zł">Powyżej 1,5 miliona zł</option>
+								</select>
+
+							</div>
+							<button type="submit" class="form__button button _icon-mail _blue-btn">Chcę natychmiastowo
+								wstrzymać egzekucję</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__info">
+					Nasza Kancelaria KPR zajmuje się restrukturyzacją przedsiębiorstw oraz gospodarstw rolnych. Napisz lub zadzwoń i umów się: <a class="_icon-phone _hover-link" href="tel:48730118004">(+48) 730 118 004</a>
+				</div>
+				<a href="#" class="footer__link _hover-link">Polityka prywatności</a>
+			</div>
+		</footer>
+		<div id="popup" aria-hidden="true" class="popup sendmail">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close">
+						<img src="img/close.svg" alt="icon">
+					</button>
+					<div class="popup__text">
+						<div class="sendmail__image">
+							<picture><source srcset="img/modal-image.webp" type="image/webp"><img src="img/modal-image.jpg" alt="image"></picture>
+						</div>
+						<div class="sendmail__info info-sendmail">
+							<div class="info-sendmail__title">Twoje żądanie zostało pomyślnie dostarczone i jest przetwarzane. Oczekuj naszej odpowiedzi wkrótce.
+							</div>
+
+							<div class="sendmail__action action-sendmail">
+								<div class="action-sendmail__title">Jeśli masz dodatkowe pytania lub potrzebujesz dodatkowych informacji, nie wahaj się z nami skontaktować. Jesteśmy gotowi Ci pomóc w każdej chwili.
+								</div>
+								<a class="_icon-phone _hover-link" href="tel:48730118004">(+48) 730 118 004</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<script src="js/app.min.js?_v=20240129232547"></script>
+</body>
+
+</html>
